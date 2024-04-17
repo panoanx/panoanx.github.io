@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="px-8 py-16 md:p-24">
-      <div className="prose mx-auto text-balance">
+      <div className="prose mx-auto">
         <h1 className="">Pengfei Xie 谢鹏飞</h1>
         <h2 className="">About</h2>
         <p>
@@ -34,10 +34,9 @@ export default function Home() {
           large-scale systems.
         </p>
         <p>
-          I will pursue an M.D. degree in{" "}
+          I will pursue a M.D. degree starting 2024 in{" "}
           <em className="font-semibold">Clinical Medicine</em>, interested in{" "}
           <em className="font-semibold">Clinical Oncology</em> (Cancer Care), at
-          the
           <Link
             className="no-underline text-blue-600 mx-1"
             href="https://www.shsmu.edu.cn/"
@@ -62,8 +61,8 @@ export default function Home() {
               Constraints
             </Link>
             <div>
-              <span className="font-semibold">Pengfei Xie</span>,
-              Wenqiang Xu, Tutian Tang, Zhenjun Yu, Cewu Lu
+              <span className="font-semibold">Pengfei Xie</span>, Wenqiang Xu,
+              Tutian Tang, Zhenjun Yu, Cewu Lu
             </div>
             <div className="">
               IEEE/CVF Conference on Computer Vision and Pattern Recognition
