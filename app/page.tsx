@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="p-24">
-      <div className="prose mx-auto">
+    <main className="px-8 py-16 md:p-24">
+      <div className="prose mx-auto text-balance">
         <h1 className="">Pengfei Xie 谢鹏飞</h1>
         <h2 className="">About</h2>
         <p>
@@ -62,19 +62,19 @@ export default function Home() {
               Constraints
             </Link>
             <div>
-              <span className="font-semibold underline">Pengfei Xie</span>,
+              <span className="font-semibold">Pengfei Xie</span>,
               Wenqiang Xu, Tutian Tang, Zhenjun Yu, Cewu Lu
             </div>
-            <div>
+            <div className="">
               IEEE/CVF Conference on Computer Vision and Pattern Recognition
               (CVPR) 2024
             </div>
-            <div className="space-x-4 italic">
+            <div className="space-x-4">
               <Link
                 href="https://ms-mano.robotflow.ai"
                 className="no-underline text-blue-600"
               >
-                Project Page
+                project page
               </Link>
               <Link
                 href="https://arxiv.org/abs/2404.10227"
