@@ -15,7 +15,7 @@ export default function Home() {
             href="https://www.seu.edu.cn/"
           >
             Southeast University
-          </Link>
+          </Link>{" "}
           expected to graduate in 2024. Since 2022, I have been working with the{" "}
           <Link className="no-underline text-blue-600" href="http://mvig.org/">
             Machine Vision and Intelligence Group
