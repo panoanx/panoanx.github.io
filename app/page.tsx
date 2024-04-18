@@ -9,41 +9,39 @@ export default function Home() {
         <h2 className="">About</h2>
         <p>
           I am an undergraduate student majoring in Computer Science (Artificial
-          Intelligence) at
+          Intelligence) at{" "}
           <Link
-            className="no-underline text-blue-600 mx-1"
+            className="no-underline text-blue-600"
             href="https://www.seu.edu.cn/"
           >
             Southeast University
           </Link>
-          expected to graduate in 2024. Since 2022, I have been working with the
-          <Link
-            className="no-underline text-blue-600 mx-1"
-            href="https://mvig.org/"
-          >
+          expected to graduate in 2024. Since 2022, I have been working with the{" "}
+          <Link className="no-underline text-blue-600" href="http://mvig.org/">
             Machine Vision and Intelligence Group
-          </Link>
-          at
+          </Link>{" "}
+          at{" "}
           <Link
-            className="no-underline text-blue-600 mx-1"
-            href="https://www.sjtu.edu.cn/"
+            className="no-underline text-blue-600"
+            href="https://cs.sjtu.edu.cn/"
           >
-            Shanghai Jiao Tong University
+            Department of Computer Science, Shanghai Jiao Tong University
           </Link>
           . My experience includes developing general Machine Learning models,
-          large-scale systems.
+          large-scale (reinforcement learning, crypto mining) systems, unix
+          programming and web applications.
         </p>
         <p>
-          I will pursue a M.D. degree starting 2024 in{" "}
-          <em className="font-semibold">Clinical Medicine</em>, interested in{" "}
-          <em className="font-semibold">Clinical Oncology</em> (Cancer Care), at
+          I will pursue a M.D. degree in{" "}
+          <em className="font-semibold">Clinical Medicine</em> starting 2024, at{" "}
           <Link
-            className="no-underline text-blue-600 mx-1"
+            className="no-underline text-blue-600"
             href="https://www.shsmu.edu.cn/"
           >
             Shanghai Jiao Tong University School of Medicine
           </Link>
-          .
+          , interested in <em className="font-semibold">Clinical Oncology</em>{" "}
+          (Cancer Care) .
         </p>
 
         <h2>Contact</h2>
