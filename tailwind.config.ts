@@ -10,7 +10,7 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Open Sans", "Noto Sans SC", ...defaultTheme.fontFamily.sans],
+      sans: ["Lato", "Noto Sans SC", ...defaultTheme.fontFamily.sans],
       mono: ["Jetbrains Mono", ...defaultTheme.fontFamily.mono],
     },
     extend: {
