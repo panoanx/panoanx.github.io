@@ -12,7 +12,7 @@ export default function Home() {
             className="no-underline text-blue-700"
             href="https://www.shsmu.edu.cn/"
           >
-            Shanghai Jiao Tong University School of Medicine (Shanghai Second
+            Shanghai Jiao Tong University School of Medicine (previously known as Shanghai Second
             Medical University)
           </Link>
           . Previously, I received my B.Eng. degree in Computer Science
@@ -82,6 +82,29 @@ export default function Home() {
                 className="no-underline text-blue-700"
               >
                 pdf
+              </Link>
+            </div>
+          </li>
+          <li className="list-none">
+            <Link
+              href="https://sites.google.com/view/dextog"
+              className="no-underline font-semibold"
+            >
+              DexTOG: Learning Task-Oriented Dexterous Grasp with Language Condition
+            </Link>
+            <div className="italic">
+              Jieyi Zhang, Wenqiang Xu, Zhengjun Yu, <span className="font-semibold">Pengfei Xie</span>, 
+              Tutian Tang, Cewu Lu
+            </div>
+            <div className="">
+              IEEE Robotics and Automation Letters (RAL), 2024
+            </div>
+            <div className="space-x-4 italic">
+              <Link
+                href="https://sites.google.com/view/dextog"
+                className="no-underline text-blue-700"
+              >
+                project page
               </Link>
             </div>
           </li>
